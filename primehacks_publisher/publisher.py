@@ -11,7 +11,7 @@ from pathlib import Path
 # ──────────────────────────────────────────────
 # الإعدادات — عدّل هنا فقط
 # ──────────────────────────────────────────────
-META_TOKEN = "EAAWalYZAGzsMBRjTj9RRO2CTfqLCHSIBCsnTPbUL1JAmQe6n4wliT5PV1vOIH50RUgqCju5Y2K0RNpOmMkMKp0rtSHupcPAfM6ZAZA6kUGbypC5ZAns7wZCd4emTgoimDQ3usS55hWk38qNS7aobsGmTMiCZA7MeH9cTRm4iWgGCL3irEaiHC3oyX8ZBxTbtTL2ZCM1PFPFRT71FGQcbOQJYYu6sVrd2f2K15kxg5pKZBm6sXX2oFWXZBWGpKaytUWIxTWZA5xZB4v2yoOH3l1ML1gtqMmgaZAz31eFFwoU8h"
+META_TOKEN = "EAAWalYZAGzsMBRkqYSXRZCGZCKEgQ5vdfbWDYVrggRlPmZCVax5bHRbLauZBOyKmV8YynoDxzTOaigY7WWBUyZAtDmHHlpVXIt8ZCN0Ny6usN8oDihHHQjFdiLku3WZCYpSIEbFoHl67ZA3y4dFZBcZBDsWc1sr3aeYXGlohrHgPDbzjov6ZCJikzq1AXQmGPO7I11ZBjPqEJ5ZCQho247FIqWZBMhZA5ZBZBhLu4bmlMewAVVdISXVGeIJLtwoNGL1qQp7d1FAgIedSpeAGZC1Jv5Gb9MhMqtaAt5hmishNY6c2QZDZD"
 PAGE_NAME = "Primehacksdaily"
 AMAZON_TAG = "newwave5077-20"
 
