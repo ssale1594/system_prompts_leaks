@@ -30,13 +30,11 @@ def matches(text):
 
 async def scrape():
     async with async_playwright() as p:
-        browser = await p.chromium.launch_persistent_context(
-            user_data_dir=r"C:\Users\ksloo\AppData\Local\Google\Chrome\User Data",
-            channel="chrome",
-            headless=False,
-        )
+        browser = await p.chromium.launch(headless=False, slow_mo=500)
         page = await browser.new_page()
         print(f"🌐 فتح صفحة @{TARGET_USER}...")
+        print("⏳ انتظر... سيفتح متصفح — سجّل دخول يدوياً إذا طلب منك")
+        await asyncio.sleep(2)
         await page.goto(f"https://x.com/{TARGET_USER}", wait_until="networkidle")
         await asyncio.sleep(3)
 
