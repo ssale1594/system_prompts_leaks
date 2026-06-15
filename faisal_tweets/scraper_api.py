@@ -8,7 +8,7 @@ import time
 from pathlib import Path
 from datetime import datetime
 
-BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAALgO3gEAAAAAlf5wLn%2BZumESbrI7HOOzPJgpru0%3DqgtuGwjYWdjAG32VcYlNyKNjoC7oYHSiZMP8weKLGpL2DXToPY"
+BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAALgO3gEAAAAABiXzGIEE3U38eOrPhDpgPZ7GQz4%3DkS56RmAtX9FV8H7PKlwwjge3R5jYED4eWikFFzm66UIfE70wzY"
 TARGET_USER = "Fisalahs"
 OUTPUT_DIR = Path("output")
 OUTPUT_DIR.mkdir(exist_ok=True)
